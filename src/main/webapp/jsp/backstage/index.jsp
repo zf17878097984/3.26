@@ -26,7 +26,7 @@
     
     <div class="welinfo">
     <span><img src="images/sun.png" alt="天气" /></span>
-    <b>${name}早上好，欢迎使用信息管理系统</b>
+    <b>${sessionScope.ademin_model.name}早上好，欢迎使用信息管理系统</b>
     <a href="#">帐号设置</a>
     </div>
     
