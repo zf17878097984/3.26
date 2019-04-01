@@ -38,10 +38,10 @@
 <div class="formbody">
 
     <div class="formtitle"><span>修改密码</span></div>
-    <form action="#">
+    <form action="doUpdatePassword">
         <input name="userId" type="hidden" value="1"/>
         <ul class="forminfo">
-            <li><label>*旧密码</label><input name="password" type="password" class="dfinput"/></li>
+            <li><label>*旧密码</label><input name="oldPass" type="password" class="dfinput"/></li>
             <li><label>*新密码</label><input name="newPass" type="password" class="dfinput"/></li>
             <li><label>*确认密码</label><input name="rePass" type="password" class="dfinput"/></li>
             <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="确认修改"/></li>

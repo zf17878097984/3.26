@@ -46,7 +46,7 @@ $(function(){
     </ul>
      
     <div class="user">
-    <span>${sessionScope.ademin_model.name}</span>
+    <span>${sessionScope.ademin_model.name}|${sessionScope.ademin_model.id}|${sessionScope.ademin_model.password}</span>
     <i>消息</i>
     <b>5</b>
     </div>    
